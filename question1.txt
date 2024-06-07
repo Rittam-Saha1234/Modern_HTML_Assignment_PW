@@ -1,0 +1,68 @@
+List out the feature of HTML5 ?
+=> HTML5 introduced a wide range of new features and improvements over its predecessors, enhancing the capabilities of web applications. Here are some of the key features of HTML5:
+
+1. New Semantic Elements:
+   - `<header>`, `<footer>`, `<section>`, `<article>`, `<aside>`, `<nav>`, and `<main>`: These elements provide better structure and meaning to the content of web pages.
+
+2. New Form Elements and Attributes:
+   - New input types: `<input type="email">`, `<input type="url">`, `<input type="number">`, `<input type="range">`, `<input type="date">`, `<input type="color">`, etc.
+   - New form attributes: `placeholder`, `autofocus`, `required`, `pattern`, `min`, `max`, `step`, etc.
+   - New elements like `<datalist>`, `<output>`, and `<progress>`.
+
+3. Multimedia Support:
+   - `<video>` and `<audio>` elements for embedding media content without the need for third-party plugins like Flash.
+   - Support for different codecs and formats.
+
+4. Canvas and SVG:
+   - `<canvas>` element for drawing graphics on the fly using JavaScript.
+   - Improved support for SVG (Scalable Vector Graphics) for vector-based graphics.
+
+5. Enhanced Accessibility:
+   - Improved semantics with new elements and attributes to support better accessibility for assistive technologies.
+
+6. Local Storage and Offline Capabilities:
+   - `localStorage` and `sessionStorage` for storing data locally within the user's browser.
+   - Application Cache (AppCache) for offline web applications (though deprecated in favor of Service Workers).
+
+7. Geolocation API:
+   - Allows web applications to access the geographical location of the user, subject to the user’s consent.
+
+8. Web Workers:
+   - Background scripts that run separately from the main execution thread of a web page, allowing for background processing without affecting the user interface.
+
+9. WebSockets:
+   - A protocol providing full-duplex communication channels over a single TCP connection for real-time web applications.
+
+
+10. Drag and Drop API:
+   - Simplifies the process of implementing drag-and-drop functionality in web applications.
+
+11. Improved Markup and Scripting:
+   - New global attributes such as `contenteditable`, `spellcheck`, and `draggable`.
+   - Improved error handling and consistent parsing rules across browsers.
+   - Native support for JSON and DOM Level 2 and 3.
+
+12. Microdata and Custom Data Attributes:
+   - Microdata for embedding custom data in HTML tags for better integration with search engines and other applications.
+   - Custom data attributes using `data-*` for embedding custom attributes in HTML elements.
+
+13. Responsive Design and Media Queries:
+   - Improved support for CSS3 media queries to build responsive web designs that adapt to different screen sizes and orientations.
+
+14. MathML and WebGL:
+   - MathML for displaying mathematical notation.
+   - WebGL for rendering interactive 3D graphics within the browser.
+
+15. Improved Forms:
+   - Native validation of form inputs with better control over user inputs.
+
+16. History API:
+   - Allows manipulation of the browser session history, enabling the creation of single-page applications with back/forward navigation.
+
+17. Server-Sent Events (SSE):
+   - A way for servers to push updates to the client over a single HTTP connection.
+
+18. Enhanced Mobile Support:
+   - Better support for mobile and touch devices with features like touch events and orientation detection.
+
+These features collectively make HTML5 a powerful tool for creating modern, interactive, and user-friendly web applications.

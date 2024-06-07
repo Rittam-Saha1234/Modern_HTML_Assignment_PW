@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feature Of HTML5</title>
+</head>
+<body>
+    <h1>1. Semantic Elements</h1>
+    <p>Semantic elements are HTML elements that have a specific meaning or purpose. They are used to describe the structure of a document and the content of its elements.</p>
+    <p>Some examples of semantic elements are:</p>
+    <ul>
+        <li>&lt;header&gt;</li>
+        <li>&lt;fooret&gt;</li>
+        <li>&lt;section&gt;</li>
+        <li>&lt;article&gt;</li>
+        <li>&lt;aside&gt;</li>
+        <li>&lt;nav&gt;</li>
+    </ul>
+
+    <h1>2. Multimedia Support</h1>
+    <p>HTML5 allows you to embed video and audio files directly in your web pages. This makes it easy to create rich, interactive web pages.</p>
+    <p>Examples:</p>
+    <h2>video:-</h2>
+    <pre><code>&lt;video controls&gt;
+        &lt;Source src="example.mp4" type="video/mp4"&gt;
+        &lt;Source src="example.webm" type="video/webm"&gt;
+        <li>&lt;/video&gt;</li>
+    </code></pre>
+
+    <h2>Audio:-</h2>
+    <pre><code>&lt;audio controls&gt;
+        &lt;Source src="example.mp3" type="audio/mp3"&gt;
+        &lt;Source src="example.ogg" type="audio/ogg"&gt;
+        <li>&lt;/audio&gt;</li>
+    </code></pre>
+
+    <h1>3. Canvas API</h1>
+    <p>HTML5 includes canvas elements that allow you to draw on the page. This can be used to create games, animations, and other interactive content.</p>
+    <p>Examples:-</p>
+    <pre><code>
+        &lt;canvas id="canvas" width="200" height="200"&gt;&lt;/canvas&gt;
+
+        &lt;script&gt;
+            var canvas = document.getElementById("myCanvas");
+            var ctx = canvas.getContext("2d");
+            ctx.fillStyle = "black";
+            ctx.fillRect(0, 0, canvas.width, canvas.height);
+            ctx.fillStyle = "white";
+            ctx.fillRect(100, 100, 100, 100);
+        &lt;/script&gt;
+    </code></pre>
+</body>
+</html>
